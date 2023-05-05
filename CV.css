@@ -1,0 +1,116 @@
+h1{
+    text-align: center;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    color: beige;
+}
+
+h2{
+    border: solid;
+    width: 100%;
+    color: beige;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+h3{
+    text-align: center;
+    color: beige;
+    margin-top: 50px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+h4{
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(120, 120, 202), rgb(117, 163, 216));
+    border: solid 2px; 
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.coprs {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* =========================corp========================================= */
+fieldset{
+    float: right;
+    text-align: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    height: 600px;
+    width: 30%;
+    order: 1;
+    justify-items: auto;
+}
+legend{
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: larger;
+    font-weight:600;
+}
+.exp {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    /* flex-wrap: wrap; */
+    /* border: 1px solid beige; */
+}
+
+#prog{
+    column-count: 2;
+}
+
+
+/* ============================infos=============================================== */
+#infos{
+    border: solid 1px;
+    border-color: beige;
+    margin-left: 20px;
+    width: fit-content;
+    padding: 20px;
+    list-style: none;
+    width: 20%;
+    width: fit-content;
+    
+}
+
+  
+
+    @media only screen and (max-width: 400px) {
+    .exp{
+        width: 70%;
+    }
+    }
+
+    @media only screen and (max-width: 1300px) {
+       h2{
+        width: 90%;
+       }
+    
+}
+
+    
+
+    @media only screen and (min-width: 1300px) {
+        h2{
+         width: 90%;
+        }
+     
+ }
